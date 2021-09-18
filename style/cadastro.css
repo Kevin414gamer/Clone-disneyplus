@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.voltar{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 90px;
+    transition: 0.2s ease;
+}
+
+.voltar:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.pagina{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: rgb(7, 5, 15);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* background: rgb(42, 39, 39); */
+    margin-top: -2px;
+    height: 98vh;
+}
+
+.logo{
+    width: 85%;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.card-info{
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    margin: 10px 0;
+    margin-right: 50px;
+    font-size: 24px;
+    color: white;
+}
+
+.caixa-email{
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    background: rgba(77, 77, 77, 0.856);
+    border: 0;
+}
+
+.aceito{
+    margin: 10px 50px;
+    color: rgba(255, 255, 255, 0.733);
+    width: 70%;
+    font-size: 12px;
+    display: flex;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+.checkbox{
+    width: 50%;
+    height: 15px;
+    display: flex;
+    margin-left: -50px;
+    margin-top: 35px;
+}
+
+.termo{
+    width: 92%;
+    color: rgba(255, 255, 255, 0.733);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(42, 39, 39);
+    padding: 10px 0 80px 0;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.btn{
+    padding: 15px;
+    background: linear-gradient(90deg,#fa1660,#ff6e00);
+    border: 0;
+    border-radius: 5px;
+    width: 385px;
+    cursor: pointer;
+    position: absolute;
+    top: 580px;
+    left: 580px;
+}
+
+.btn:hover{
+    background: linear-gradient(25deg,#fa1660,#ff6e00);
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+
